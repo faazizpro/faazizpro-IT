@@ -302,3 +302,28 @@ main{
 }
 
 /* Sponsor */
+.sponsor-title{
+    text-align: center;
+}
+
+.sponsor-title h2{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.sponsor-title p{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 50px;
+}
+
+.sponsor-lists{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
