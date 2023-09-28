@@ -12,16 +12,17 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 
-/* Header Section */
+/* Navbar Section */
 
 header{
     background: rgba(255, 144, 14, 0.10);
+    padding: 50px 0;
+
 }
 
 .header{
     width: 1440px;
     margin: 0 auto;
-    padding: 50px 0;
 }
 
 nav{
@@ -51,4 +52,52 @@ nav h1{
     color:  #131313;
     font-size: 40px;
     font-weight: 700;
+}
+
+/* Hero Section */
+.hero{
+    width: 1440px;
+    margin: 0 auto;
+    margin-top: 102px;
+}
+.titles{
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.titles h1{
+    color:  #131313;
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.titles p{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.btn-common{
+    border-radius: 8px;
+    border: none;
+    background: #FF900E;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 18px 24px;
+    margin-top: 40px;
+}
+
+.hero-img{
+    margin-top: 50px;
+    width: 1440px;
+    height: 500px;
+    border-radius: 8px;
+    background: url(../images/team\ header.jpg), lightgray 0px -94.291px / 100% 137.109% ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
