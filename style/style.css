@@ -327,3 +327,18 @@ main{
     align-items: center;
     margin-bottom: 100px;
 }
+
+footer{
+    width: 1440;
+    margin: 0 auto;
+    padding: 40px 0;
+    border-radius: 8px;
+    background: #FFF4E7;
+}
+
+footer p{
+    text-align: center;
+    color: #424242;
+    font-size: 20px;
+    font-weight: 400;
+}
