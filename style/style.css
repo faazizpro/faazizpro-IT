@@ -116,7 +116,6 @@ main{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* gap: 70px; */
 }
 
 .feature-images{
@@ -198,7 +197,6 @@ main{
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
     width: 586px;
-    /* height: 150px; */
     padding: 25px;
     margin-bottom: 25px;
 }
@@ -230,7 +228,6 @@ main{
     justify-content: center;
     align-items: center;
     padding: 25px 0;
-
     position: absolute;
     bottom: -50px;
     left: -80px;
@@ -241,7 +238,6 @@ main{
     text-align: center;
     font-size: 40px;
     font-weight: 700;
-    /* line-height: 70px;  */
 }
 
 .experience p{
@@ -278,7 +274,6 @@ main{
 
 .fact{
     width: 241.831px;
-    /* height: 241.831px; */
     text-align: center;    
     border-radius: 8px;
     border: 1px solid #FF900E;
