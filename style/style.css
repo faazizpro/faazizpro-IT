@@ -1,6 +1,54 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
 body{
     font-family: 'Work Sans', sans-serif;
 }
 
+/* Header Section */
+
+header{
+    background: rgba(255, 144, 14, 0.10);
+}
+
+.header{
+    width: 1440px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #424242;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px; 
+}
+
+nav ul{
+    display: flex;
+    gap: 50px;
+}
+
+nav h1{
+    color:  #131313;
+    font-size: 40px;
+    font-weight: 700;
+}
