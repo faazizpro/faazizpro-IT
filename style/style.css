@@ -488,6 +488,27 @@ footer p{
     }
 
     /* Facts */
+    .facts{
+        padding: 0 20px;
+    }
+    .fact-titles h2{
+        font-size: 2cqh;
+        font-weight: 600;
+        margin-bottom: 18px;
+    }
+    
+    .fact-titles p{
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 26px;
+        width: 310px;
+        margin-bottom: 50px;
+    }
+
+    .some-fact{
+        display: grid;
+        gap: 20px;
+    }
 
 }
 
