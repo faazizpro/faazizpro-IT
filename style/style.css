@@ -16,13 +16,12 @@ body{
 
 header{
     background: rgba(255, 144, 14, 0.10);
-    padding: 50px 0;
-
+    padding: 50px 240px;
 }
 
 .header{
-    width: 1440px;
-    margin: 0 auto;
+    /* width: 1440px; */
+    /* margin: 0 auto; */
 }
 
 nav{
@@ -60,7 +59,7 @@ nav h1 span{
 
 /* Hero Section */
 .hero{
-    width: 1440px;
+    max-width: 800px;
     margin: 0 auto;
     margin-top: 102px;
 }
@@ -72,7 +71,7 @@ nav h1 span{
 
 .titles h1{
     color:  #131313;
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: 700;
     margin-bottom: 20px;
 }
@@ -97,7 +96,7 @@ nav h1 span{
 
 .hero-img{
     margin-top: 50px;
-    width: 1440px;
+    width: 100%;
     height: 500px;
     border-radius: 8px;
     background: url(../images/team\ header.jpg), lightgray 0px -94.291px / 100% 137.109% ;
@@ -107,7 +106,7 @@ nav h1 span{
 }
 
 main{
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 /* Features */
@@ -121,7 +120,7 @@ main{
 .feature-images{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 25px;
+    gap: 1.5rem;
 }
 
 .fimage img{
@@ -339,3 +338,168 @@ footer p{
 }
 
 /* Mobile & tablet Responsive Starts */
+/* Mobile Devices */
+@media screen and (max-width: 576px) {
+
+    header{
+        padding: 20px;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+    nav h1{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    nav ul{
+        display: flex;
+        gap: 10px;
+    }
+
+    nav ul li a{
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 50px; 
+    }
+
+    .hero{
+        margin-top: 102px;
+    }
+
+    .titles h1{
+        font-size: 2rem;
+        font-weight: 500;
+        margin-bottom: 20px;
+        /* text-align: left; */
+    }
+    
+    .titles p{
+        color: #727272;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 26px;
+        width: 300px;
+    }
+
+    .btn-common{
+        border-radius: 5px;
+        border: none;
+        background: #FF900E;
+        color: #FFF;
+        font-size: 10px;
+        font-weight: 500;
+        padding: 10px 15px;
+        margin-top: 40px;
+    }
+
+    /* Feature Section */
+
+    .features{
+        margin: 50px 0;
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    .feature-images{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+    }
+
+    .feature-info{
+        width: 250px;
+    }
+
+    .feature-info h2{
+        font-size: 2rem;
+    }
+
+    .fi1{
+        font-size: 2rem;
+    }
+    
+    .fi2{
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .about{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 130px;
+        margin: 0 20px;
+    }
+
+    .about-info h2{
+        font-size: 2rem;
+        font-weight: 600;
+        width: 300px;
+    }
+
+    .ap{
+        width: 300px;
+        height: 77px;
+        overflow: hidden;
+        color: #727272;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        margin-bottom: 30px;
+    }
+
+    .about-img img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        margin-bottom: 100px;
+    }
+
+    .list{
+        width: 250px;
+    }
+
+    .experience{
+        width: 150px;
+        border-radius: 8px;
+        background: #FF900E;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 0;
+        position: absolute;
+        bottom: 50px;
+        left: 90px;
+    }
+    
+    .experience h3{
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    
+    .experience p{
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    /* Facts */
+
+}
+
+
+/* Tablet & MEdium Device */
+@media screen and (min-width: 577px) and (max-width:960px) {
+    nav h1{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+}
